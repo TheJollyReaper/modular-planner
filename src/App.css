@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+.spawn-widget {
+  height: 3rem;
+  width: 3rem;
+}
+
+.spawn-widget:hover {
+  background-color: rgb(212, 212, 0);
+}
