@@ -1,5 +1,4 @@
 import './App.css';
-import styled from 'styled-components'
 import Textbox from './widgets/Textbox.js'
 import CheckboxList from './widgets/CheckboxList.js'
 import useStickyState from './widgets/useStickyState.js'

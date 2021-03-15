@@ -116,11 +116,11 @@ const Title = styled.input `
   border: none;
   display: inline;
   font-family: inherit;
-  font-size: inherit;
+  font-size: 1rem;
   padding: none;
   width: 98%;
   position: relative;
-  top: .7rem;
+  top: .5rem;
 `
 
 const ItemEnter = styled.input ` 
@@ -134,6 +134,7 @@ const Checklist = styled.li `
   list-style: none;
   position: relative;
   top: .45rem;
+  font-size: .8rem;
 `
 
 const SpawnButton = styled.button ` 
