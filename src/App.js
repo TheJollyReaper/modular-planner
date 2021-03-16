@@ -44,9 +44,6 @@ function App() {
               </Draggable>
             : null
         }
-
-        {/* <ChromePicker className="picker" color={color} onChange={ setBackground }/> */}
-
         
       </header>
     </div>
