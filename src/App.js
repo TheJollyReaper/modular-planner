@@ -8,6 +8,7 @@ import Draggable from 'react-draggable'
 import styled from 'styled-components'
 import MoveIcon from './Move_icon.svg'
 import { useState } from 'react'
+import Schedule from './widgets/Schedule.js'
 
 function App() {
   const [color, setColor] = useStickyState("blue", "background-color")
@@ -34,7 +35,8 @@ function App() {
 
         <Textbox/>
         <CheckboxList/>
-        
+        <Schedule/>
+
         { pickerVisibility
             ? <Draggable handle=".handle">
                 <Container>
